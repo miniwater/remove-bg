@@ -84,7 +84,7 @@ export default function RootLayout({
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 rounded-lg border border-gray-250 bg-white px-2 py-1.5 text-xs text-gray-300 shadow transition hover:bg-white/75 md:rounded-xl md:px-4 md:text-sm"
-              href="https://github.com/hellokaton/remove-bg"
+              href="https://github.com/miniwater/remove-bg"
             >
               <GithubIcon className="size-4" />
               GitHub
