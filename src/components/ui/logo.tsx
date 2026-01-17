@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 export default function Logo(props: React.ComponentProps<"div">) {
   return (
     <div className="flex items-center" {...props}>
-      <img
+      <Image
         src="/icon.png"
         alt="Logo"
         width={24}
