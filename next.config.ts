@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  async headers() {
+  // async headers() {
     // return [
     //   {
     //     source: "/api/:path*",
@@ -34,7 +34,7 @@ const nextConfig: NextConfig = {
     //     ],
     //   },
     // ];
-  },
+  // },
 };
 
 export default nextConfig;
