@@ -5,6 +5,7 @@ import "./globals.css";
 import { Toaster as RadixToaster } from "@/components/ui/toaster";
 import { Toaster } from "sonner";
 import Link from "next/link";
+import Script from "next/script";
 
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
@@ -40,6 +41,13 @@ export default function RootLayout({
 }>) {
   return (
     <html suppressHydrationWarning lang="zh">
+      <head>
+        <Script
+          defer
+          src="https://um.krjojo.com/script.js"
+          data-website-id="864a8634-7417-4f2b-a36d-2afc920ea9bd"
+        />
+      </head>
       <body
         className={cn(
           geistSans.variable,
