@@ -20,6 +20,8 @@ export const fileToDataUrl = (file: File): Promise<string> => {
 export const processImageBackground = async (file: File): Promise<string> => {
   // 配置背景移除选项
   const config = {
+    // Default: 'https://staticimgly.com/${PACKAGE_NAME}-data/${PACKAGE_VERSION}/dist/'
+    publicPath: `${location.origin}/dist/`,
     debug: true,
     progress: (key: string, current: number, total: number) => {
       // 显示进度
